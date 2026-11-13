@@ -1,6 +1,8 @@
 # Editor do ClipHook no navegador
 
-Demonstração do editor de cortes do [ClipHook](https://cliphook.com.br), feita em React e TypeScript. Roda em [ricardochiarini.com/editor](https://ricardochiarini.com/editor/).
+Demonstração do editor de cortes do [ClipHook](https://cliphook.com.br), feita em React e TypeScript. Para ver funcionando, rode localmente (veja [Rodar](#rodar)).
+
+![Editor com a linha do tempo, os cortes sugeridos pela IA e a prévia vertical](docs/captura.jpg)
 
 O ClipHook é um app para Windows que encontra os melhores trechos de lives e podcasts e os transforma em cortes verticais. O app de verdade analisa os arquivos do editor no computador dele. Esta versão mostra a mesma interface e o mesmo fluxo no navegador, **com dados simulados**: os vídeos, as falas e as notas são fictícios, e nada é exportado.
 
@@ -41,6 +43,10 @@ npm run dev
 ```
 
 Outros comandos: `npm test` (Vitest), `npm run typecheck` e `npm run build`.
+
+## Licença
+
+Código aberto para leitura, como portfólio. Todos os direitos reservados: veja [LICENSE](LICENSE).
 
 ## Créditos
 
